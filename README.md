@@ -7,8 +7,11 @@ table creation :
 --------------------------
 
 >>>create table table_name(
+
 column_name datatype,
+
 column_name datatype
+
 );
 
 
@@ -22,6 +25,7 @@ int            :-- will used to store the number without decimal
 
 			>>>4 bytes 
 			>>>(2**31)-1
+			
 bigint         :-- will used to store the number without decimal
 
 			>>>8 bytes 
@@ -79,33 +83,51 @@ use ecosystem;
 show tables;
 
 create table student(
+
 id int,
+
 name text,
+
 dept text,
+
 marks int,
+
 doj date,
+
 mobile int
+
 );
+
 
 show tables;
 
 select * from student;
 
 create table emp(
+
 emp_id int,
+
 name text,
+
 salary decimal(10,2),
+
 doj date
+
 );
+
 
 show tables;
 
 select * from emp;
 
 create table num(
+
 id int,
+
 mobile bigint
+
 );
+
 
 select * from num;
 
@@ -114,20 +136,30 @@ describe num;
 insert into num values(2147483647,2147483648);
 
 create table stu1(
+
 rating float,
+
 rank_ double,
+
 salary decimal(20,16)   
+
 );
+
 
 insert into stu1 values(1.23421374622484832828,1.23421374622484832828,1.23421374622484832828);
 
 select * from stu1;
 
 create table example(
+
 name varchar(100),
+
 phone char(10),
+
 address text
+
 );
+
 
 insert into example values("vishnu","8939179936","suryapet ,telangana,india");
 
