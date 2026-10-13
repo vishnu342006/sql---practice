@@ -25,18 +25,18 @@ int            :-- will used to store the number without decimal
 bigint         :-- will used to store the number without decimal
 
 			>>>8 bytes 
-            >>>(2**63)-1
+              >>>(2**63)-1
       
 float          :-- will used to store the number with decimal 
 
 			>>>4 bytes 
-            >>>(2**31)-1
+              >>>(2**31)-1
 			>>>will accepts 5 values after decimal point
       
 double         :-- will used to store the number with decimal
 
 			>>>8 bytes 
-            >>>(2**63)-1
+              >>>(2**63)-1
 			>>>will accepts more then 5 after decimal point
       
 decimal(s,p)   :-- will used to store the number with decimal 
