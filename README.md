@@ -107,37 +107,61 @@ drop        :-- will remove both table data and table architecture
 
 use ecosystem;
 
+
 create table employee(
+
 doj date,
+
 dot time,
+
 logout datetime
+
 );
+
 
 select * from employee;
 
+
 insert into employee values('2020-07-13','9:30:10','2025-01-01 5:30:10');
+
 
 select * from employee;
 
 create table employee1(
+
 empid int,
+
 emp_name varchar(50),
+
 email varchar(100),
+
 pan_num char(10),
+
 address text,
+
 login datetime,
+
 dob date,
+
 salary decimal(10,2),
+
 phone bigint
+
 );
 
+
+
 select * from employee1;
+
 
 select * from emp;
 
+
 show tables;
 
+
 select * from employee1;
+
 
 alter table employee1 add column adhar bigint;
 
@@ -165,7 +189,9 @@ alter table employee1 modify column emp_name text;
 
 alter table employee1 modify column pan_num varchar(100);
 
+
 show tables;
+
 
 select * from example;
 
