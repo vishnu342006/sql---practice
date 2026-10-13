@@ -40,7 +40,7 @@ datetime  :-- will accepts the date and time  type of data
 
 
 ddl :-
----------------------------
+------------------------
 
 create 
 alter      :-- will used to perform operation on table architecture 
@@ -103,7 +103,7 @@ drop        :-- will remove both table data and table architecture
 >>>drop database database_name;
 
 
-================================================================================
+=============================================================
 
 use ecosystem;
 
