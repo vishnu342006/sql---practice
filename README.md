@@ -5,9 +5,13 @@ number
 --------------
 
 int
+
 bigint
+
 float
+
 double
+
 decimal(s,p)
 
 
@@ -15,7 +19,9 @@ string:
 ----------------
 
 varchar(size)
+
 char(size)
+
 text
 
 
